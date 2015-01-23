@@ -9,7 +9,7 @@ public class Producer {
     // URL of the JMS server. DEFAULT_BROKER_URL will just mean
     // that JMS server is on localhost
     //private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
-    private static String url = "tcp://169.229.249.16:61616";
+    private static String url = "tcp://169.229.249.10:61616";
 
     // Name of the queue we will be sending messages to
     private static String subject = "otherqueue";
